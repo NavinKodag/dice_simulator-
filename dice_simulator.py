@@ -49,7 +49,7 @@ def dice_roll():
     while  counter !=6:
            counter =counter + 1
            time.sleep(0.49)
-           print(chr(27) + "[2J")
+           print("\n"*50)
            print(random.choice(list))
 
 dice_roll()
